@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <style>
+        .table {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .col-1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .heading{
+            background-color: rgb(184, 184, 184);
+            border-radius: 20px;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .data {
+            display: flex;
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+        .data p{
+            margin-left: 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="table">
+        <div class="row">
+            <div class="col-1">
+                <div class="heading">
+                    <h1>TCO</h1>
+                </div>
+                <div class="data">
+                    <p>year1</p>
+                    <p>year2</p>
+                    <p>year3</p>
+                    <p>year4</p>
+                    <p>year5</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="heading">
+                    <h1>Ultra Disk</h1>
+                </div>
+                <div class="data">
+                    <p>$1,354,862.717</p>
+                    <p>$1,555,092.125</p>
+                    <p>$1,791,804.944</p>
+                    <p>$2,060,576.835</p>
+                    <p>$2,369,663.360</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="heading">
+                    <h1>Permium SSSD2</h1>
+                </div>
+                <div class="data">
+                    <p>$170,803.200</p>
+                    <p>$$196,423.680</p>
+                    <p>$225,887.232</p>
+                    <p>$259,770.317</p>
+                    <p>$298,735.864</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="heading">
+                    <h1>Ligthbits</h1>
+                </div>
+                <div class="data">
+                    <p>$3,464,862.712</p>
+                    <p>$2,350,094.123</p>
+                    <p>$1,791,802.944</p>
+                    <p>$2,010,516.830</p>
+                    <p>$1,339,603.365</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
